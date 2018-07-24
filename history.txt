@@ -1,0 +1,991 @@
+    1  ls
+    2  sudo apt-get install vim
+    3  sudo apt-get update
+    4  sudo apt-get upgrade
+    5  lsof
+    6  lsof | grep "lock"
+    7  pstree
+    8  sudo apt-get upgrade
+    9  sudo cat /var/lib/dpkg/
+   10  cd /var/lib/dpkg/
+   11  ls
+   12  sudo lsof /var/lib/dpkg/lock
+   13  ls -al
+   14  vim
+   15  ls
+   16  cd ..
+   17  c d..
+   18  cd ..
+   19  ls
+   20  sudo apt-get upgrade
+   21  ls
+   22  ls -al
+   23  history
+   24  sudo lsof /var/lib/dpkg/
+   25  sudo apt-get update
+   26  ls -al
+   27  pstree
+   28  clear
+   29  ls -al
+   30  cd /home/balaji/
+   31  ls
+   32  sudo apt-get update
+   33  sudo apt-get upgrade
+   34  ls
+   35  ls -al
+   36  exit
+   37  sudo apt-get update
+   38  sudo apt-get upgrade
+   39  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+   40  echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
+   41  sudo apt-get update 
+   42  sudo apt-get install google-chrome-stable
+   43  sudo apt-get update 
+   44  sudo add-apt-repository ppa:webupd8team/java
+   45  sudo apt-get update
+   46  sudo apt-get install oracle-java8-installer
+   47  javac -version
+   48  locate jdk
+   49  cd /var/lib/
+   50  ls
+   51  javac -version
+   52  java version
+   53  java -version
+   54  whereis java
+   55  ls -l /usr/bin/java
+   56  ls -l /etc/alternatives/java
+   57  ls -l /usr/lib/jvm/java-8-oracle/jre/bin/java
+   58  cd ..
+   59  vim /etc/environment 
+   60  ls
+   61  cd /etc/
+   62  ls
+   63  sudo vim environment 
+   64  ls
+   65  cat environment 
+   66  cd /usr/lib/jvm/
+   67  ls
+   68  cd java-8-oracle/
+   69  ls
+   70  cd jre/
+   71  ls
+   72  exit
+   73  cd /opt/
+   74  sudo wget http://www-eu.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz
+   75  sudo tar -xf apache-maven-3.5.3-bin.tar.gz
+   76  sudo mv apache-maven-3.5.3/ apache-maven/
+   77  sudo update-alternatives --install /usr/bin/mvn maven /opt/apache-maven/bin/mvn 1001
+   78  mvn -v
+   79  cd /etc/
+   80  ls
+   81  cd profile.d/
+   82  ls
+   83  cat jdk.
+   84  cat jdk.sh
+   85  sudo gedit maven.sh
+   86  2
+   87  sudo chmod +x maven.sh
+   88  source maven.sh
+   89  history
+   90  cd ~
+   91  ls
+   92  git
+   93  suydo apt-get install git
+   94  sudo apt-get install git
+   95  ls -al
+   96  sudo apt-get install tomcat8
+   97  sudo apt-get install tomcat8-docs tomcat8-examples tomcat8-admin
+   98  systemctl  start tomcat8
+   99  systemctl stop tomcat8
+  100  cd /var/lib/tomcat8/conf
+  101  ls
+  102  sudo gedit tomcat-users.xml 
+  103  systemctl restart tomcat8
+  104  systemctl stop tomcat8
+  105  systemctl start tomcat8
+  106  sudo gedit tomcat-users.xml 
+  107  systemctl stop tomcat8
+  108  systemctl restart tomcat8
+  109  cd /usr/share/
+  110  ls
+  111  cd tomcat8
+  112  ls
+  113  sudo mkdir .jenkins
+  114  sudo chown tomcat7:nogroup .jenkins
+  115  sudo chown tomcat8:nogroup .jenkins
+  116  systemctl restart jenkins
+  117  systemctl restart tomcat8
+  118  systemctl restart jenkins
+  119  cd /var/lib/
+  120  las
+  121  ls
+  122  cd tomcat8/
+  123  sudo mkdir .jenkins
+  124  sudo chown tomcat8:nogroup .jenkins
+  125  cd /usr/share/
+  126  ls
+  127  cd tomcat8
+  128  ls
+  129  cd /var/lib/tomcat8/
+  130  ls
+  131  systemctl restart tomcat8
+  132  cat /var/lib/tomcat8/.jenkins/secrets/initialAdminPassword
+  133  sudo cat /var/lib/tomcat8/.jenkins/secrets/initialAdminPassword
+  134  ls -al
+  135  cd ~
+  136  clear
+  137  ls -al
+  138  clear
+  139  suod apt-get update
+  140  sudo apt-get update
+  141  pstree
+  142  exit
+  143  history
+  144  cat /var/lib/tomcat8/.jenkins/secrets/initialAdminPassword
+  145  sudo cat /var/lib/tomcat8/.jenkins/secrets/initialAdminPassword
+  146  cd /var/lib/tomcat8/.jenkins/secrets/
+  147  ls
+  148  sudo cd /var/lib/tomcat8/.jenkins/secrets/
+  149  cd /var/lib/tomcat8/.jenkins/secrets/
+  150  sudo
+  151  su
+  152  cd /var/
+  153  cd /lib/tomcat8
+  154  ls
+  155  cd /lib
+  156  ls
+  157  cd /var/lib/tomcat8/.jenkins/
+  158  ls
+  159  cat secret.key
+  160  sudo cat secret.key
+  161  cd secrets/
+  162  sudo secrets/
+  163  sudo cd secrets/
+  164  sudo -i
+  165  ls -al
+  166  clear
+  167  javac -version
+  168  sudo apt-get install mysql-server
+  169  sudo service mysql start
+  170  sudo service mysql status
+  171  cd /usr/bin/
+  172  ls
+  173  sudo mysql_secure_installation 
+  174  mysql
+  175  mysql -u root -p
+  176  sudo mysql_secure_installation 
+  177  cd ~
+  178  mysql -u root -p
+  179  sudo mysql -u root -p
+  180  clear
+  181  ls -al
+  182  clear
+  183  sudo apt-get update
+  184  mysql -u root -p
+  185  sudo mysql -u root -p
+  186  mysql -v
+  187  sudo mysql -v
+  188  mysql -u balaji -p
+  189  history
+  190  cd /usr/bin/
+  191  ls
+  192  history
+  193  sudo mysql_secure_installation
+  194  cd ~
+  195  mysql -u root -p
+  196  mysql -u balaji -p
+  197  mysql -u root -p
+  198  mysql -u balaji -p
+  199  cd /usr/bin/
+  200  ls
+  201  sudo mysql_secure_installation 
+  202  cd ~
+  203  mysql -u balaji -p
+  204  mysql -u root -p
+  205  clear
+  206  history | grep "root"
+  207  clear
+  208  history | grep *t
+  209  hitsory
+  210  history
+  211  history | grep "*t"
+  212  history | grep "*n"
+  213  history | grep "*"
+  214  history | grep "*/"
+  215  history | grep "*\"
+  216  ;
+  217  ;
+  218  ;
+  219  ;
+  220  sudo mysql -u root -p
+  221  clear
+  222  sudo apt-get update
+  223  sudo apt-get upgrade
+  224  clear
+  225  exit
+  226  systemctl start tomcat
+  227  systemctl start tomcat8
+  228  systemctl stop tomcat8
+  229  systemctl stop tomcat8 -- httpPort = 9090
+  230  systemctl start tomcat8 -- httpPort=9090
+  231  systemctl start tomcat8 -- httpPort=(9090)
+  232  systemctl start tomcat8 
+  233  systemctl stop tomcat8 
+  234  ls -al
+  235  clear
+  236  mysql -u root -p
+  237  mysql -u balaji -p
+  238  mysql -u root -p
+  239  SUDO mysql -u root -p
+  240  sudo mysql -u root -p
+  241  mysql -u balaji -p
+  242  sudo mysql -u root -p
+  243  mysql -u root -p
+  244  sudo mysql -u root -p
+  245  sudo /usr/bin/mysql_secure_installation 
+  246  mysql -u root -p
+  247  sudo mysql -u root -p
+  248  mysql -u balaji -p
+  249  mysql -u root -p
+  250  sudo mysql -u root -p
+  251  mysql -u balaji -p
+  252  cd Documents/gittest1/
+  253  git
+  254  mysql -u balaji -p
+  255  ls -al
+  256  ls
+  257  history
+  258  history | gerp 'git'
+  259  history |gerp 'git'
+  260  history |grep 'git'
+  261  ls
+  262  cd Pictures/
+  263  ls
+  264  git init
+  265  git add .
+  266  git commit -m "basicoverview"
+  267  git config --global user.email "puppalabalaji@gmail.com"
+  268  git config --global user.name "balajisaiveer"
+  269  git add .
+  270  git commit -m "basicoverview"
+  271  git push origin master
+  272  git push  master
+  273  git push origin master
+  274  ls -al
+  275  git push 
+  276  ls
+  277  cd Documents/
+  278  l
+  279  cd gittest1/
+  280  ls
+  281  git add .
+  282  git init
+  283  git add .
+  284  git commit -m "3rd"
+  285  git push origin master
+  286  clear
+  287  mysql -u balaji -p
+  288  git
+  289  ls
+  290  cd Documents/
+  291  ls
+  292  cd gittest1/
+  293  ls
+  294  git add.
+  295  git add .
+  296  git commit -m 
+  297  git commit -m "Add Project"
+  298  git push origin
+  299  git push --set-upstream origin master
+  300  git push origin master
+  301  git push master
+  302  ls -al
+  303  clear
+  304  systemctl stop tomcat8
+  305  histroy
+  306  history
+  307  ls
+  308  mkdir git
+  309  cd git
+  310  git init
+  311  git conifg --uername "balajisaiveer"
+  312  git config --uername "balajisaiveer"
+  313  git config --username "balajisaiveer"
+  314  cd git/
+  315  ls
+  316  git config --global user.name "balajisaiveer"
+  317  git config --global user.email "puppalabalaji@gmail.com"
+  318  git clone https://github.com/balajisaiveer/first.git
+  319  ls -al
+  320  ls
+  321  cd first
+  322  ls
+  323  git add.
+  324  git add .
+  325  git commit -m 
+  326  git commit -m "changes"
+  327  git push origin master
+  328  git commit 
+  329  git tag v1.0
+  330  git push origin master
+  331  git tag v1.0
+  332  git push origin v1.0
+  333  clear
+  334  git add
+  335  git add .
+  336  git commit -m "1.1"
+  337  git tag v1.1
+  338  git push origin v1.1
+  339  systemctl start tomcat8
+  340  systemctl stop tomcat8
+  341  systemctl start tomcat8;
+  342  systemctl stop tomcat8
+  343  systemctl start tomcat8;
+  344  systemctl start tomcat8
+  345  systemctl start tomcat8[A
+  346  systemctl start tomcat8
+  347  systemctl stop tomcat8
+  348  systemctl start tomcat8
+  349  systemctl stop tomcat8
+  350  systemctl start tomcat8
+  351  systemctl stop tomcat8
+  352  cd git/
+  353  ls
+  354  git add .
+  355  cd first/
+  356  git add .
+  357  git commit -m "Context path added"
+  358  git push origin master
+  359  ls -al
+  360  clear
+  361  systemctl start tomcat8;
+  362  systemctl start tomcat8
+  363  echo JAVA_HOME
+  364  echo $JAVA_HOME
+  365  sudo echo $JAVA_HOME
+  366  cd /etc/
+  367  ls
+  368  ls | gerp "envi"
+  369  ls |\gerp "envi"
+  370  ls |gerp "envi"
+  371  ls |gerp"envi"
+  372  ls |gerp "envi"
+  373  ls
+  374  clear
+  375  ~
+  376  ls -al
+  377  cd /etc/
+  378  ls -al
+  379  source /etc/environment 
+  380  gedit /etc/environment 
+  381  echo $JAVA_HOME
+  382  echo $MAVEN_HOME
+  383  ls
+  384  cd git
+  385  cd first/
+  386  git add .
+  387  git commit -m "Restriction on reciver username added"
+  388  git add .
+  389  git commit -m "Restriction on reciver username added"
+  390  git push origin master
+  391  ls\
+  392  ls
+  393  cd git/
+  394  ls
+  395  cd first/
+  396  ls
+  397  ls -al
+  398  ls
+  399  git add .
+  400  git commit -m "View balance added"
+  401  git commit -m "Balance new coloum added in 'finalusers' table also View balance option added"
+  402  git push origin master
+  403  ls -al
+  404  git add .
+  405  git commit -m "Balance restrictions and Balance updation upon transactions included"
+  406  git push origin master
+  407  clear
+  408  git add .
+  409  history
+  410  history | gerp "tag"
+  411  history |grep "tag"
+  412  git add .
+  413  git commit -m "Read me updated for instructions"
+  414  git tag v2.0
+  415  git push origin v2.0
+  416  ls
+  417  cd ..
+  418  git add .
+  419  git commit
+  420  cd git/
+  421  ls
+  422  git add .
+  423  git commit 
+  424  cd git
+  425  git add .
+  426  git commit -m "v2.1"
+  427  git push origin master
+  428  ls
+  429  cd first/
+  430  git add .
+  431  git commit 
+  432  git push origin master
+  433  git add .
+  434  git commit
+  435  git tag v2.1
+  436  git push origin v2.1
+  437  exit
+  438  systemctl stop tomcat8
+  439  mysql -u balaji -p
+  440  exit
+  441  ls -al
+  442  clear
+  443  mysql -u balaji -p
+  444  history
+  445  history | grep "create"
+  446  mysql -u balaji -p
+  447  cd git/first/
+  448  ls
+  449  git add .
+  450  git commit -m "readme updated"
+  451  git push origin master
+  452  git add.
+  453  git add .
+  454  git commit -m "readme updated"
+  455  git push origin master
+  456  git add .
+  457  git commit -m "readme updated"
+  458  git push origin master
+  459  ls
+  460  git add .
+  461  git commit -m "readme update" 
+  462  git push origin master
+  463  git branch
+  464  git status
+  465  ls -al
+  466  cd ..
+  467  ls -al
+  468  gedit .gitignore 
+  469  git status'
+  470  git status
+  471  cd Myapplication/
+  472  git add .
+  473  git commit -m "target folder"
+  474  git push origin master
+  475  cd ..
+  476  git remote add origin https://github.com/balajisaiveer/Second.git
+  477  cd ..
+  478  ls
+  479  cd second/
+  480  git init
+  481  git add remote origin https://github.com/balajisaiveer/Second.git
+  482  git remote add origin https://github.com/balajisaiveer/Second.git
+  483  git staus
+  484  git fetch origin
+  485  git status
+  486  git addv .
+  487  git add .
+  488  git commit -m "second"
+  489  git push origin master
+  490  clear
+  491  ls -al
+  492  cd ..
+  493  ls
+  494  cd first/
+  495  ls
+  496  git init
+  497  git clone https://github.com/balajisaiveer/first.git
+  498  cd ..
+  499  ls
+  500  git init
+  501  git clone https://github.com/balajisaiveer/first.git
+  502  ls
+  503  dc first
+  504  cd first
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd first/
+  509  git add .
+  510  git commit -m "target files"
+  511  dc ..
+  512  cd ..
+  513  git add .
+  514  git commit -m "target files"
+  515  git push origin master
+  516  cd ..
+  517  cd git/first/
+  518  ls
+  519  cd Myapplication/
+  520  ls
+  521  git add .
+  522  git commit -m "target files"
+  523  cd target/
+  524  git add .
+  525  git commit -m "target files"
+  526  git push origin master
+  527  ls
+  528  cd ..
+  529  cd .
+  530  git add *
+  531  git commit -m "target folder"
+  532  git push origin master
+  533  git add *
+  534  git commit -m "target folder"
+  535  git push origin master
+  536  git status
+  537  pwd
+  538  ls
+  539  cd Myapplication
+  540  ls
+  541  git status
+  542  ls
+  543  cd target
+  544  ls
+  545  cd ..
+  546  ls -la
+  547  cd .git
+  548  ls
+  549  vim config
+  550  cd ..
+  551  cd Myapplication/
+  552  git init
+  553  cd ..
+  554  ls -al
+  555  ls
+  556  git add *
+  557  git commit -m "target files"
+  558  ls -al
+  559  cd .git/
+  560  ls -al
+  561  cd ..
+  562  git remote -v
+  563  ls -al
+  564  ls
+  565  ls -al
+  566  cd .git/
+  567  ls
+  568  cd hooks/
+  569  ls
+  570  nano post-receive
+  571  ls
+  572  gedit pre-receive.sample 
+  573  pwd
+  574  nano post-receive
+  575  ls
+  576  chmod a+x post-receive 
+  577  ls
+  578  cd ..
+  579  ls -al
+  580  git add *
+  581  git commit -m "target files"
+  582  git push origin master
+  583  git pull https://github.com/balajisaiveer/first.git
+  584  ls -al
+  585  git add *
+  586  git commit -m "target files"
+  587  git push origin master
+  588  git push origin
+  589  git push
+  590  chmod 777 Myapplication/
+  591  git add *
+  592  git commit -m "target files"
+  593  git push origin master
+  594  sudo chmod 777 Myapplication/
+  595  git add *
+  596  git push origin master
+  597  git add *
+  598  git commit -m "target files"
+  599  git status
+  600  clear
+  601  git Myapplication/
+  602  ls
+  603  cd Myapplication/
+  604  ls
+  605  cd target/
+  606  git status
+  607  git add *
+  608  git add * -f
+  609  git status
+  610  cd ..
+  611  git add *
+  612  git commit -m "including ignored files sucha as target folder"
+  613  git push origin master
+  614  ls -al
+  615  clear
+  616  ls -al
+  617  clear
+  618  cd Myapplication/
+  619  ls -al
+  620  gedit .gitignore 
+  621  cd ..
+  622  dc Documents/workspace-sts-3.9.5.RELEASE/
+  623  cd Documents/workspace-sts-3.9.5.RELEASE/
+  624  ls -la
+  625  cd Myapplication/
+  626  ls -a
+  627  gedit .gitignore 
+  628  ls -al
+  629  clear
+  630  exit
+  631  ls -al
+  632  clear
+  633  cd Documents/
+  634  cd workspace-sts-3.9.5.RELEASE/
+  635  exit
+  636  ls -al
+  637  clear
+  638  exit
+  639  systemctl start tomcat8
+  640  systemctl stop tomcat8
+  641  ls -al
+  642  pstree
+  643  mysql -u balaji -p
+  644  sudo apt-get update
+  645  clear
+  646  cd git/first/
+  647  git add .
+  648  git commit -m "password encryption specification removing unnecessary imports" 
+  649  git push origin master
+  650  clear
+  651  cd ..
+  652  ls -la
+  653  ls -al
+  654  clear
+  655  ipython
+  656  sudo apt install ipython
+  657  clear
+  658  ls -lka
+  659  ipython
+  660  clear
+  661  ls -al
+  662  ipython
+  663  clear
+  664  git add .
+  665  cd git/first/
+  666  ls -al
+  667  ls -=al
+  668  clear
+  669  ls -al
+  670  git add .
+  671  git commit -m "Developer Guide updated"
+  672  git push origin master
+  673  clear
+  674  ls -al
+  675  git status
+  676  systemctl start tomcat8
+  677  systemctl stop tomcat8
+  678  git add .
+  679  git commit -m "context path errors rectified" 
+  680  git push origin master
+  681  clear
+  682  git add .
+  683  git commit -m ".war[build file] updated to match current updates"
+  684  git push origin master
+  685  systemctl start tomcat8
+  686  systemctl restart tomcat8
+  687  echo $JAVA_HOME
+  688  echo $MAVEN_HOME
+  689  echo $GIT_HOME
+  690  git
+  691  cd /var/lib/tomcat8
+  692  chmod -R 777 /var/lib/tomcat8
+  693  sudo chmod -R 777 /var/lib/tomcat8
+  694  cd /var/lib/tomcat8/.jenkins/
+  695  ls
+  696  cd workspace/
+  697  ls
+  698  cd Myapplication
+  699  ls
+  700  cd Myapplication/
+  701  ls
+  702  cd ..
+  703  ls
+  704  ls -al
+  705  cd ~
+  706  clear
+  707  ls
+  708  cd /home/balaji/git/first/Myapplication/
+  709  cd ..
+  710  cd /var/lib/tomcat8/.jenkins/
+  711  xdg-eopn
+  712  xdg-open
+  713  nautilus .
+  714  ls -al
+  715  clear
+  716  cd ~
+  717  ls -al
+  718  clear
+  719  cd /var/lib/tomcat8/conf
+  720  ls -al
+  721  gedit tomcat-users.xml 
+  722  sudo gedit tomcat-users.xml 
+  723  cd ~
+  724  ssystemctl stop tomcat8
+  725  systemctl stop tomcat8
+  726  systemctl start tomcat8
+  727  ls -al
+  728  sudo gedit tomcat-users.xml 
+  729  ls -al
+  730  cd /var/lib/tomcat8/conf
+  731  gedit tomcat-users.xml 
+  732  sudo gedit tomcat-users.xml 
+  733  cd ..
+  734  ls -al
+  735  cd webapps/
+  736  ls -al
+  737  clear
+  738  ls -al
+  739  cd /var/lib/tomcat8/.jenkins/workspace/Myapplication/Myapplication/target/
+  740  sudo cd /var/lib/tomcat8/.jenkins/workspace/Myapplication/Myapplication/target/
+  741  sudo cd /var/lib/tomcat8/.jenkins/workspace/Myapplication/Myapplication/target
+  742  cd ..
+  743  cd .jenkins/workspace/Myapplication/Myapplication/
+  744  ls
+  745  sudo cd .jenkins/workspace/Myapplication/Myapplication/
+  746  sudo su
+  747  exit
+  748  cd git
+  749  ls
+  750  cd first/
+  751  cd m
+  752  cd Myapplication/
+  753  ls -al
+  754  gedit .gitignore 
+  755  cd ..
+  756  ls -al
+  757  git add .
+  758  git commit -m "Installation instructions and Design Document Added"
+  759  git push origin master
+  760  history | grep "tag"
+  761  history
+  762  git add .
+  763  git commit -m "new version"
+  764  git tag v2.2
+  765  git push origin v2.2
+  766  clear
+  767  history
+  768  clear
+  769  git add .
+  770  git commit -m "comments added to the controllers"
+  771  cd Myapplication/
+  772  gedit .gitignore 
+  773  git push origin master
+  774  clear
+  775  ls -al
+  776  gedit mvnw
+  777  ls
+  778  cd ..
+  779  ls -al
+  780  gedit .sudo_as_admin_successful 
+  781  ls -al
+  782  clear
+  783  cd git/first/Myapplication/
+  784  git init
+  785  cd /var/lib/tomcat8/
+  786  ls
+  787  cd webapps/
+  788  ls -al
+  789  history
+  790  ls
+  791  nautilus .
+  792  ls
+  793  rm -rf firstproject firstproject.war 
+  794  ls
+  795  cd firstproject
+  796  ls
+  797  ls -al
+  798  clear
+  799  ls -al
+  800  clear
+  801  cd ~
+  802  ls -al
+  803  systemctl stop tomcat8
+  804  clear
+  805  ls -al
+  806  sudo apt-get update
+  807  ls -al
+  808  clear
+  809  ls -al
+  810  clear
+  811  cd git/first/
+  812  ls -al
+  813  git add .
+  814  git commit -m "basic tests added"
+  815  git push origin master
+  816  clear
+  817  cd ~
+  818  ls -al\
+  819  ls -al
+  820  clear
+  821  exit
+  822  ls -al
+  823  clear
+  824  ls -a
+  825  clear
+  826  systemctl stop tomcat8;
+  827  systemctl stop tomcat8
+  828  ls -al
+  829  clear
+  830  cd /var/lib/tomcat8/
+  831  ls -al
+  832  cd webapps/
+  833  ls -al
+  834  cd ROOT/
+  835  ls -al
+  836  gedit index.html 
+  837  cd ..
+  838  ls -al
+  839  clear
+  840  ls -al
+  841  cd ..
+  842  cd .
+  843  cd ~
+  844  ls -al
+  845  clear
+  846  cd Downloads/
+  847  ls -al
+  848  sudo cp Tomato-v1.war /var/lib/tomcat8/webapps/
+  849  ls
+  850  sudo systemctl start tomcat8
+  851  mysql -u root -p
+  852  sudo systemctl stop tomcat8
+  853  mysql 
+  854  mysql -u root -p
+  855  sudo mysql -u root -p
+  856  cd /var/lib/tomcat8/
+  857  ls -al
+  858  clear
+  859  ls -al
+  860  cd webapps/
+  861  ls -al
+  862  cd ~
+  863  cd git/first/
+  864  ls -al
+  865  git add .
+  866  git commit -m "pom changed to adjust the generation of war file"
+  867  git push origin master
+  868  ls -al
+  869  clear
+  870  systemctl start tomcat8
+  871  ls -al
+  872  cd ~
+  873  ls
+  874  cd Documents/workspace-sts-3.9.5.RELEASE/
+  875  cd Myapplication/target/
+  876  ls -al
+  877  cp firstproject.war /var/lib/tomcat8/webapps/
+  878  cd /var/lib/tomcat8/webapps/
+  879  ls -al
+  880  rm Tomato-v1
+  881  sudo rm -rf Tomato-v1
+  882  sudo rm -rf Tomato-v1.war 
+  883  ls -al
+  884  clear
+  885  systemctl restart tomcat8
+  886  clear
+  887  cd ~
+  888  cd Documents/workspace-sts-3.9.5.RELEASE/Myapplication/
+  889  cd target/
+  890  ls-al
+  891  cp firstproject.war /var/lib/tomcat8/webapps/
+  892  ls -al
+  893  c d~
+  894  cd ~
+  895  ls -al
+  896  cd /var/lib/tomcat8/webapps/
+  897  ls -al
+  898  clear
+  899  systemctl restart tomcat8
+  900  cd ~/Downloads/
+  901  cp firstproject.war /var/lib/tomcat8/webapps/
+  902  cd /var/lib/tomcat8/webapps/
+  903  ls -al
+  904  clear
+  905  ls -al
+  906  systemctl restart tomcat8
+  907  cd ~/Downloads/
+  908  ls -al
+  909  java -jar firstproject.war 
+  910  systemctl stop tomcat8
+  911  java -jar firstproject.war 
+  912  cd /var/lib/tomcat8/webapps/
+  913  ls -al
+  914  clear
+  915  systemctl stop tomcat8
+  916  cd ~/Downloads/ac/first-master/Myapplication/src/
+  917  ls -al
+  918  cd main/
+  919  ls -al
+  920  cd ..
+  921  ls -al
+  922  mvn clean install
+  923  clear
+  924  cd >>
+  925  c ..
+  926  cd ..
+  927  cd first-master/Myapplication/target/
+  928  ls -al
+  929  cp firstproject.war /var/lib/tomcat8/webapps/
+  930  sudo cp firstproject.war /var/lib/tomcat8/webapps/
+  931  cd /var/lib/tomcat8/webapps/
+  932  ls -al
+  933  clear
+  934  sytemctl start tomcat8
+  935  systemctl start tomcat8
+  936  clear
+  937  cd ~
+  938  ls -al
+  939  cd Downloads/ac/
+  940  ls a-l
+  941  ls -al
+  942  clear
+  943  cd ~/git/first/
+  944  ls -al
+  945  git add .
+  946  git commit -m "read me updated"
+  947  git push origin master
+  948  clear
+  949  ls -al
+  950  clear
+  951  ls -al
+  952  clear
+  953  ls -al
+  954  systemctl stop tomcat8
+  955  ls -al
+  956  clear
+  957  cd ..
+  958  ls -al
+  959  clear
+  960  cd first/
+  961  ls -al
+  962  git add .
+  963  git commit -m "restrictions on amount(in New transactions) added"
+  964  git add .
+  965  git commit -m "restrictions on amount(in New transactions) added"
+  966  git push origin master
+  967  clear
+  968  ls -al
+  969  clear
+  970  history
+  971  git add .
+  972  git tag commit "version 2.5"
+  973  git commit "version 2.5"
+  974  git commit -m "version 2.5"
+  975  git tag v2.5
+  976  git push origin v2.5
+  977  clear
+  978  ls -al
+  979  clear
+  980  exit
+  981  mysql -u balaji -p "balaji"
+  982  mysql -u balaji -p 
+  983  exit
+  984  ls -al
+  985  clear
+  986  ls -al
+  987  clear
+  988  history
+  989  ls
+  990  touch history.txt
+  991  history > history.txt 
