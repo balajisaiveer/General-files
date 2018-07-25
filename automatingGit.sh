@@ -26,3 +26,4 @@ else
 	git push origin master
 	echo "update"
 fi
+rm genralstatus.txt
